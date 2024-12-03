@@ -39,7 +39,7 @@ describe Day01 do
 
     it 'processes real data' do
       data = File.read('./lib/data1.txt')
-      expect(subject.puzzle2 data).to eq 1_879_048
+      expect(subject.puzzle2 data).to eq 21_024_792
     end
   end
 end
